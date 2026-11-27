@@ -10,6 +10,7 @@ FROM eclipse-temurin:21-jre
 WORKDIR /app
 COPY --from=build /app/app.jar /app/app.jar
 COPY --from=build /app/lib /app/lib
+COPY --chmod=644 prod-ca-2021.crt /app/prod-ca-2021.crt
 RUN useradd --system --uid 10001 appuser && chown -R appuser /app
 USER appuser
 ENV PORT=10000
