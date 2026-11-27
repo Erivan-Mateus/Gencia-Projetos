@@ -1,0 +1,10 @@
+OK — Quatro cartões, incluindo disciplinas sem materiais
+OK — Separação por ID, inclusive matérias homônimas
+OK — Filtro por turma
+OK — Publicação restrita às opções da matéria selecionada
+OK — Retorno à biblioteca
+OK — Matéria vazia
+OK — Aluno sem botões de publicar ou excluir
+OK — Atalho direto da turma
+OK — Seleção inválida volta ao catálogo
+9 testes de renderização e navegação aprovados (DOM simulado).
