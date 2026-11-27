@@ -20,3 +20,22 @@
 .materia-pasta{appearance:none;display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:10px;min-width:0;min-height:190px;aspect-ratio:1.12;background:white;border:1px solid var(--line);border-radius:15px;padding:19px;color:#20304b;box-shadow:0 3px 12px #20304b08;transition:transform .18s,border-color .18s,box-shadow .18s;overflow-wrap:anywhere}
 .materia-pasta:hover{transform:translateY(-3px);border-color:var(--pasta-cor);box-shadow:0 7px 20px #20304b10}.materia-pasta:focus-visible{outline:3px solid var(--pasta-cor);outline-offset:3px}.pasta-icon{display:grid;place-items:center;width:54px;height:54px;border-radius:13px;background:#eef2fa;color:var(--pasta-cor);flex:none}.pasta-nome{font-size:1.12rem;font-weight:750;line-height:1.25}.pasta-prof{font-size:.82rem;color:var(--muted)}.pasta-rodape{display:flex;width:100%;align-items:center;justify-content:space-between;gap:8px;margin-top:auto;padding-top:10px;border-top:1px solid var(--line);color:var(--pasta-cor);font-weight:650;font-size:.83rem}.pasta-rodape span:last-child{font-size:1.2rem}.biblioteca-voltar{margin-bottom:18px}.biblioteca-voltar button{min-height:44px}.biblioteca-turmas{margin-top:18px}
 @media(max-width:720px){.biblioteca-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.materia-pasta{min-height:175px;aspect-ratio:auto;padding:13px;gap:8px}.pasta-icon{width:44px;height:44px}.pasta-icon svg{width:25px;height:25px}.pasta-nome{font-size:1rem}.pasta-prof,.pasta-rodape{font-size:.76rem}}@media(max-width:330px){.biblioteca-grid{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){.materia-pasta{transition:none}.materia-pasta:hover{transform:none}}
+
+/* Sprint 6.4 — navegação compacta sem alterações visuais no desktop. */
+#nav .mobile-more,#nav .mobile-menu,#nav .mobile-nav-icon{display:none}
+@media(max-width:720px){
+ #nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:3px;width:100%;}
+ #nav .nav-secondary{display:none}
+ #nav .nav-original .nav-icon{display:none}
+ #nav .mobile-nav-icon{display:block;width:22px;height:22px;flex:none}
+ #nav .nav-primary,#nav .mobile-more{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-height:56px;padding:6px 2px;font-size:clamp(.67rem,2.7vw,.82rem);line-height:1.2;text-align:center;border-radius:10px;white-space:nowrap}
+ #nav [data-page=inicio]{order:1}#nav [data-page=atividades]{order:2}#nav [data-page=materiais]{order:3}#nav [data-page=projetos]{order:4}#nav .mobile-more{order:5}
+ #nav .mobile-menu:not([hidden]){display:block;position:absolute;bottom:calc(100% + 8px);left:10px;right:10px;padding:14px;background:#fff;color:#20304b;border:1px solid var(--line);border-radius:17px;box-shadow:0 10px 38px #172b4d33;max-height:60vh;overflow:auto;}
+ .mobile-menu-heading{display:flex;align-items:center;justify-content:space-between;font-weight:750;padding:0 2px 10px;font-size:1rem}
+ #nav .mobile-menu-heading button{flex:none;width:44px;color:#53627b;font-size:1.4rem;line-height:1;min-width:44px;min-height:44px;padding:0;display:grid;place-items:center}
+ #nav .mobile-menu-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ #nav .mobile-menu-item{flex-direction:row;justify-content:flex-start;align-items:center;gap:8px;background:#f1f4fa;color:#20304b;border:1px solid #e0e5ef;min-height:52px;padding:12px;font-size:.85rem;text-align:left;white-space:normal;overflow-wrap:anywhere}
+ #nav .mobile-menu-item.active{background:#e4eaff;color:#314baf;border-color:#bccbff}
+ #nav .mobile-menu-item:focus-visible,#nav .mobile-more:focus-visible,#nav .nav-primary:focus-visible{outline:2px solid #7c9bff;outline-offset:-2px}
+ main{padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
+}
