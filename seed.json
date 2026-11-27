@@ -1,0 +1,294 @@
+{
+  "versao": 2,
+  "codigos": [
+    "PILOTO-NOVO-01",
+    "PILOTO-NOVO-02",
+    "PILOTO-NOVO-03"
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Prof. Ana",
+      "perfil": "PROFESSOR",
+      "email": "ana.prof@exemplo.test",
+      "login": "ana.prof",
+      "senhaHash": "Er48nt0xdOLb9HHR6H7H0Q==:zYxyVY3v5dui2+/6sNsEk+7S1IKPjlVrO3bRBXxnA2w=",
+      "codigo": ""
+    },
+    {
+      "id": 2,
+      "nome": "Prof. Carlos",
+      "perfil": "PROFESSOR",
+      "email": "carlos.prof@exemplo.test",
+      "login": "carlos.prof",
+      "senhaHash": "1XThqCoA5jQsOjDF6lP6xw==:JFohr9sJAeHD143wJWlu8extW2RqX5MGYF6lwRIjeMc=",
+      "codigo": ""
+    },
+    {
+      "id": 3,
+      "nome": "Prof. Helena",
+      "perfil": "PROFESSOR",
+      "email": "helena.prof@exemplo.test",
+      "login": "helena.prof",
+      "senhaHash": "jRF3gnbSanCWRQDnCqBffA==:ItZhZ3M3191tNYVXCB/YD24WTK3BuvE6ZWP1+sjL4Sc=",
+      "codigo": ""
+    },
+    {
+      "id": 4,
+      "nome": "Alice",
+      "perfil": "ALUNO",
+      "email": "alice@exemplo.test",
+      "login": "alice",
+      "senhaHash": "fN+spo6vnatbtv0un89Rfw==:C3kBTmOVcNw5mooUcZvR0/FZnSEpH+RM0LjnbfEPJwE=",
+      "codigo": "01012010-1001"
+    },
+    {
+      "id": 5,
+      "nome": "Bruno",
+      "perfil": "ALUNO",
+      "email": "bruno@exemplo.test",
+      "login": "bruno",
+      "senhaHash": "KNJvQJeBe642KI61n09oZw==:5HsEXyY30lDrT3UH4rcI+4iD0eXopjhlW3H78QeCmmA=",
+      "codigo": "02012010-1002"
+    },
+    {
+      "id": 6,
+      "nome": "Clara",
+      "perfil": "ALUNO",
+      "email": "clara@exemplo.test",
+      "login": "clara",
+      "senhaHash": "yHcV4ExjCLE5pWiMygDM6A==:XCCXO21hL8SW+pz4vQjGjIVitbVwiKw84SqbFkm5ikM=",
+      "codigo": "03012010-1003"
+    },
+    {
+      "id": 7,
+      "nome": "Diego",
+      "perfil": "ALUNO",
+      "email": "diego@exemplo.test",
+      "login": "diego",
+      "senhaHash": "nxvhzVnLHepTydNsq7ap5w==:c8MesbUSB2OgnwBtG/jr+EHwUBHliN3kVVmQgqGPezA=",
+      "codigo": "04012010-1004"
+    },
+    {
+      "id": 8,
+      "nome": "Elisa",
+      "perfil": "ALUNO",
+      "email": "elisa@exemplo.test",
+      "login": "elisa",
+      "senhaHash": "BBYQfDtFAlIAKqYSf2U/jQ==:BLDuTL7ez/nFCJS6y68x4QqPxpIvHBxBazzevwf/QhY=",
+      "codigo": "05012010-1005"
+    },
+    {
+      "id": 9,
+      "nome": "Felipe",
+      "perfil": "ALUNO",
+      "email": "felipe@exemplo.test",
+      "login": "felipe",
+      "senhaHash": "R/vOGN6mr9oJvXTPUOLg8w==:nyWHX7SBU79vHrhx+lv0qO7url+HWitCevi5DDnEo80=",
+      "codigo": "06012010-1006"
+    },
+    {
+      "id": 10,
+      "nome": "Gabriela",
+      "perfil": "ALUNO",
+      "email": "gabriela@exemplo.test",
+      "login": "gabriela",
+      "senhaHash": "jiJcaKnkgB47MPrYzAkilw==:Lj3EyhGBw2tBpT6TPEcyRNXlYkCHYF+Frxx/d9Qk/s8=",
+      "codigo": "07012010-1007"
+    },
+    {
+      "id": 11,
+      "nome": "Heitor",
+      "perfil": "ALUNO",
+      "email": "heitor@exemplo.test",
+      "login": "heitor",
+      "senhaHash": "b0bQjqjRQqKZ/GXO8H4jXw==:ndiM+9PXAvPGU8Qc/DyjUEA5u4dYCdRSC8LefY8OOBk=",
+      "codigo": "08012010-1008"
+    },
+    {
+      "id": 12,
+      "nome": "Isabela",
+      "perfil": "ALUNO",
+      "email": "isabela@exemplo.test",
+      "login": "isabela",
+      "senhaHash": "W1xsHg2Rc7b4+ywTTwpx1A==:JxFQNmwtErqckrv+kxPgbz+GSBzLWIq/gN/Eq4mzBe0=",
+      "codigo": "09012010-1009"
+    },
+    {
+      "id": 13,
+      "nome": "João",
+      "perfil": "ALUNO",
+      "email": "joao@exemplo.test",
+      "login": "joao",
+      "senhaHash": "J440vG9LzGkxZyqnLIgvUg==:8NJq+wpgG3x8h5p4h8JaUUO0XlcxKyb7y05mGihca3k=",
+      "codigo": "10012010-1010"
+    }
+  ],
+  "atividades": [
+    {
+      "id": 1,
+      "titulo": "Pesquisa sobre sustentabilidade",
+      "materia": "Ciências",
+      "descricao": "Apresente duas soluções para reduzir desperdícios.",
+      "prazo": "2026-12-05",
+      "professor": 1,
+      "entregas": []
+    },
+    {
+      "id": 2,
+      "titulo": "História da comunidade",
+      "materia": "História",
+      "descricao": "Descreva uma tradição local.",
+      "prazo": "2026-12-06",
+      "professor": 2,
+      "entregas": []
+    },
+    {
+      "id": 3,
+      "titulo": "Prototipagem inclusiva",
+      "materia": "Tecnologia",
+      "descricao": "Proponha uma interface acessível.",
+      "prazo": "2026-12-07",
+      "professor": 3,
+      "entregas": []
+    }
+  ],
+  "equipes": [
+    {
+      "id": 1,
+      "nome": "EcoTech",
+      "descricao": "Ciência e sustentabilidade.",
+      "foto": "",
+      "lider": 4,
+      "membros": [
+        4,
+        5,
+        6
+      ],
+      "convites": [],
+      "publica": true,
+      "nomePublico": true,
+      "liderPublico": true,
+      "membrosPublicos": true
+    },
+    {
+      "id": 2,
+      "nome": "Memória Viva",
+      "descricao": "Cultura e história local.",
+      "foto": "",
+      "lider": 7,
+      "membros": [
+        7,
+        8,
+        9
+      ],
+      "convites": [],
+      "publica": true,
+      "nomePublico": true,
+      "liderPublico": true,
+      "membrosPublicos": true
+    },
+    {
+      "id": 3,
+      "nome": "CodeLab",
+      "descricao": "Tecnologia e inclusão.",
+      "foto": "",
+      "lider": 10,
+      "membros": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "convites": [],
+      "publica": true,
+      "nomePublico": true,
+      "liderPublico": true,
+      "membrosPublicos": true
+    }
+  ],
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Horta inteligente",
+      "descricao": "Sistema de irrigação e monitoramento de uma horta escolar.",
+      "equipe": 1,
+      "mentor": 1,
+      "publico": true
+    },
+    {
+      "id": 2,
+      "nome": "Memórias da comunidade",
+      "descricao": "Registro de histórias e tradições locais em uma exposição digital.",
+      "equipe": 2,
+      "mentor": 2,
+      "publico": true
+    },
+    {
+      "id": 3,
+      "nome": "Escola acessível",
+      "descricao": "Protótipo de recursos digitais para acessibilidade e inclusão escolar.",
+      "equipe": 3,
+      "mentor": 3,
+      "publico": true
+    }
+  ],
+  "mentorias": [],
+  "academico": {
+    "materias": [
+      {
+        "id": 1,
+        "professor": 1,
+        "nome": "Ciências"
+      },
+      {
+        "id": 2,
+        "professor": 2,
+        "nome": "História"
+      },
+      {
+        "id": 3,
+        "professor": 3,
+        "nome": "Tecnologia"
+      }
+    ],
+    "turmas": [
+      {
+        "id": 1,
+        "professor": 1,
+        "materia": 1,
+        "nome": "Ciências — Turma A",
+        "membros": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "professor": 2,
+        "materia": 2,
+        "nome": "História — Turma B",
+        "membros": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "professor": 3,
+        "materia": 3,
+        "nome": "Tecnologia — Turma C",
+        "membros": [
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ],
+    "passes": [],
+    "materiais": []
+  }
+}

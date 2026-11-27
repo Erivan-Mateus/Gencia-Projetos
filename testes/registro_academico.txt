@@ -1,0 +1,38 @@
+PASS 01: Turmas iniciais para demonstração
+PASS 02: Aluno não cria matéria
+PASS 03: Professor cadastra matéria
+PASS 04: Matéria duplicada bloqueada
+PASS 05: Outro professor não usa matéria privada
+PASS 06: Turma vinculada à matéria
+PASS 07: Outro professor não vê turma
+PASS 08: Outro professor não altera matrícula
+PASS 09: Professor não pode ser matriculado como aluno
+PASS 10: Aluno existente vê sua turma
+PASS 11: Matrícula duplicada bloqueada
+PASS 12: Aluno externo não vê turma
+PASS 13: Matrícula inválida bloqueada
+PASS 14: Passe combina data, matrícula e sufixo aleatório
+PASS 15: Passe não retorna nas consultas
+PASS 16: Cadastro vincula aluno automaticamente à turma
+PASS 17: Passe de cadastro de uso único
+PASS 18: Passe sai da lista pendente após cadastro
+PASS 19: Passe cancelado não permite cadastro
+PASS 20: Aluno não publica material
+PASS 21: Professor externo não publica na turma
+PASS 22: URL perigosa bloqueada
+PASS 23: Arquivo sem cabeçalho PDF bloqueado
+PASS 24: Material publicado; bytes fora do estado público
+PASS 25: Alunos matriculados consultam materiais
+PASS 26: Material oculto para terceiros
+PASS 27: Download autenticado mantém bytes
+PASS 28: Download de terceiros ou anônimo bloqueado
+PASS 29: Exclusão de outro professor bloqueada
+PASS 30: Atividade nova vinculada à turma e matéria
+PASS 31: Aluno externo não consulta atividade de turma
+PASS 32: Aluno externo não envia entrega
+PASS 33: Aluno matriculado entrega atividade
+PASS 34: Remoção revoga acesso à turma, materiais e atividades
+PASS 35: Matrícula e PDF persistem após reinício
+PASS 36: Exclusão remove acesso ao PDF
+PASS 37: Dados da Sprint 6 original carregam sem migração destrutiva
+RESULTADO: 37 verificações aprovadas.

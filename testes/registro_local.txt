@@ -1,0 +1,44 @@
+PASS 01: Arquivo Web /
+PASS 02: Arquivo Web /style.css
+PASS 03: Arquivo Web /app.js
+PASS 04: Arquivo Web /manifest.webmanifest
+PASS 05: Arquivo Web /sw.js
+PASS 06: Login professor ana.prof
+PASS 07: Login professor carlos.prof
+PASS 08: Login professor helena.prof
+PASS 09: Login aluno 1
+PASS 10: Login aluno 2
+PASS 11: Login aluno 3
+PASS 12: Login aluno 4
+PASS 13: Login aluno 5
+PASS 14: Login aluno 6
+PASS 15: Login aluno 7
+PASS 16: Login aluno 8
+PASS 17: Login aluno 9
+PASS 18: Login aluno 10
+PASS 19: Professor entra por e-mail
+PASS 20: Senha inválida bloqueada
+PASS 21: Acesso sem sessão bloqueado
+PASS 22: Aluno não pode emitir código
+PASS 23: Professor emite código
+PASS 24: Código inválido bloqueado
+PASS 25: Cadastro e login aluno
+PASS 26: Código não pode ser reutilizado
+PASS 27: Cadastro professor
+PASS 28: Usuário duplicado bloqueado
+PASS 29: Não líder bloqueado
+PASS 30: Não membro bloqueado
+PASS 31: Líder anterior mantém participação
+PASS 32: Novo líder tem permissão
+PASS 33: Líder antigo perde permissões
+PASS 34: Aluno externo não vê projeto privado
+PASS 35: Todos professores veem projeto privado
+PASS 36: Equipe privada não aparece a externos
+PASS 37: Publicação e entrega
+PASS 38: Entrega individual protegida
+PASS 39: Solicitação e confirmação de mentoria
+PASS 40: API não expõe credenciais
+PASS 41: Conta persiste após reinício
+PASS 42: Liderança e privacidade persistem
+PASS 43: Mentoria persiste
+RESULTADO: 43 verificações aprovadas.

@@ -1,0 +1,38 @@
+OK - Contas de demonstracao
+OK - Publicacao e consulta
+OK - Aluno nao publica atividade (Apenas professor pode realizar esta operacao.)
+OK - Prazo passado (Prazo nao pode estar no passado.)
+OK - Titulo vazio (Campo obrigatorio.)
+OK - Entregas individuais
+OK - Entrega duplicada (Esta atividade ja foi entregue por este aluno.)
+OK - Professor consulta duas entregas
+OK - Professor alheio nao consulta entregas (Professor nao responsavel pela atividade.)
+OK - Status atrasado
+OK - Entrega tardia
+OK - Criacao com lider
+OK - Convite pendente
+OK - Convite duplicado (Aluno ja pertence a equipe ou possui convite.)
+OK - Nao convidado nao ingressa (Convite inexistente.)
+OK - Aceitar convite
+OK - Recusar convite
+OK - Integrante nao edita equipe (Apenas o lider da equipe pode realizar esta operacao.)
+OK - Integrante nao convida (Apenas o lider da equipe pode realizar esta operacao.)
+OK - Lider personaliza equipe
+OK - Integrante nao cria projeto (Apenas o lider da equipe pode realizar esta operacao.)
+OK - Projetos visiveis aos membros
+OK - Mentoria sem mentor recusada (Projeto precisa ter mentor.)
+OK - Professor ingressa como mentor
+OK - Mentor existente nao substituido (Projeto ja tem mentor.)
+OK - Integrante nao solicita mentoria (Apenas o lider da equipe pode realizar esta operacao.)
+OK - Horario passado recusado (Horario deve estar no futuro.)
+OK - Solicitacao pendente visivel
+OK - Outro professor nao confirma (Solicitacao pendente nao pertence a este professor.)
+OK - Confirmacao visivel a equipe
+OK - Conflito de horario exato (Conflito com mentoria confirmada neste horario.)
+OK - Professor propoe horario
+OK - Integrante nao aceita reagendamento (Apenas o lider da equipe pode realizar esta operacao.)
+OK - Lider confirma novo horario
+OK - Professor recusa pedido
+OK - Professor agenda diretamente
+OK - Nao membro nao lista mentorias
+TOTAL: 37 verificacoes aprovadas.
