@@ -1,3 +1,16 @@
+# Atualização Sprint 6.2 — Links e fotos nas entregas
+
+**Atualização do serviço já publicado:** faça commit das alterações no repositório. A configuração do Render e o SQL existentes continuam válidos. O Dockerfile corrigido e o certificado CA público estão incluídos; a URL de conexão no Render permanece a que usa `/app/prod-ca-2021.crt`. Não envie senhas nem arquivos `.env` ao GitHub. Não redefina nem apague o estado no Supabase. O campo de links e fotos é opcional e entregas antigas continuam compatíveis.
+
+- Professores: código de autorização = variável privada `PROFESSOR_INVITE` do Render. Altere o valor exposto anteriormente. Alunos: em Matérias → Turmas → Gerar passe, forneça os dados fictícios do aluno. Vincule contas existentes sem novo passe.
+- Alunos: em Atividades → Enviar atividade, escreva a resposta (opcional), informe até 5 links HTTP/HTTPS (um por linha), e/ou selecione até 3 fotos JPG/PNG (até 2 MiB somados; resolução máxima 12 MP). Pelo menos um conteúdo é obrigatório. Fotos HEIC e outros formatos precisam ser convertidos. Se necessário, reduza as fotos antes do envio.
+- Professores: em Atividades, abra a lista de entregas, clique nos links ou em Ver foto para visualizar e baixar. Links externos dependem da permissão de compartilhamento no serviço de origem.
+- Somente o aluno autor (enquanto autorizado na turma) e o professor responsável pela atividade podem acessar os anexos. Os bytes não são enviados nas consultas gerais; o download exige sessão autenticada.
+- Armazenamento: fotos na estrutura JSONB privada existente, com limite global de 16 MiB de fotos para o piloto, separado do limite de PDFs. Para escalar, migre os anexos para um bucket privado do Supabase Storage. O banco já existente não requer nova tabela.
+- Testes locais: 43 de integração, 37 de regras, 37 acadêmicos e 24 de anexos (141 verificações aprovadas). Java compilado e sintaxe JS validada. O deploy novo e a interface em navegador real ainda precisam ser verificados. Use somente dados fictícios até remover as contas de demonstração e reforçar a segurança.
+
+---
+
 # Sprint 6.1 — Gestão Escolar online (piloto)
 
 ## Arquitetura
@@ -18,7 +31,7 @@ No painel, New > Web Service > Git Provider, conecte o repositório e conceda ac
 
 | Nome | Valor |
 |---|---|
-| DB_URL | `jdbc:postgresql://aws-1-us-west-2.pooler.supabase.com:5432/postgres?sslmode=verify-full&sslfactory=org.postgresql.ssl.DefaultJavaSSLFactory` |
+| DB_URL | `jdbc:postgresql://aws-1-us-west-2.pooler.supabase.com:5432/postgres?sslmode=verify-full&sslrootcert=/app/prod-ca-2021.crt` |
 | DB_USER | `postgres.cihapbheqxqoogbvqhln` |
 | DB_PASSWORD | A NOVA senha do banco, sem aspas, sem colchetes, sem codificação URL |
 | PROFESSOR_INVITE | Código secreto novo escolhido por você, pelo menos 16 caracteres, distinto da senha do banco |
